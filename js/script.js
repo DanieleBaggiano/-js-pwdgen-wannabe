@@ -1,5 +1,5 @@
 // chiedo all'utente il suo nome
-const userName = prompt ("Come ti chiami?");  // string
+const userName = prompt ("Qual'è il tuo nome?");  // string
 console.log (userName, typeof userName);
 
 // chiedo all'utente il suo cognome
