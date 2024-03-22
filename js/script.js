@@ -12,13 +12,17 @@ console.log (userColor, typeof userColor);
 
 // generare un numero random
 let userNumber = Math.floor((Math.random() * 100) + 1); // number
-
+console.log (userNumber, typeof userNumber);
 
 //parte logica
 const userPassword = userName + userSurname + userColor + userNumber; // number
+console.log (userPassword, typeof userPassword);
 
-// stampo i risultati
+// preparo i risultati
 const resultMessage = `Ho generato la tua password ed è: ${userPassword}`;
+console.log (resultMessage, typeof resultMessage);
+
+// stampo i risultati in pagina
 document.getElementById ("result").innerHTML = resultMessage;
 
 
